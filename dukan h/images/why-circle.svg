@@ -1,0 +1,23 @@
+<svg width="582" height="482" viewBox="0 0 482 482" fill="none" xmlns="http://www.w3.org/2000/svg">
+	
+	<style>
+	@keyframes smallScale {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+#wave{ webkit-animation: smallScale 2s infinite alternate;
+    animation: smallScale 2s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    position: absolute;}
+	
+	</style>
+<circle id="wave" opacity="0.2" cx="241" cy="241" r="241" fill="#7DCAAE"/>
+<circle opacity="0.3" cx="241" cy="241" r="205" fill="#7DCAAE"/>
+</svg>
